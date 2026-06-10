@@ -17,11 +17,11 @@ Remplacez simplement le PY par une nouvelle version puis réinstallez-la.
 
 juste après l'import d'un projet ColMap avec Blender-Addon-Photogrammetry-Importer sur une version 4.3 de Blender
 il y a toujours qqs opérations à faire:
-	1 lier les caméra à la time line  (ça permet de naviguer entre les cam avec les flèches du clavier) et régler la focale (opinel, je fait des relevés au grand angle)
-	2 orienter l'ensemble pour le mettre dans un repère qui nous arrange
-	3 lui donner une échelle 
+1. lier les caméra à la time line  (ça permet de naviguer entre les cam avec les flèches du clavier) et régler la focale (opinel, je fait des relevés au grand angle)
+2. Orienter l'ensemble pour le mettre dans un repère qui nous arrange
+3. Lui donner une échelle
 
-Plutôt que de cliquer des pts, je passe par la création d'empty que l'on doit déplacer à la main (on peut mettre l'accrochage aux vertex pour se snapper sur les points du nuage c'est plus souple et plus visuel mais il faut penser à importer les mesh du nuage)
+Plutôt que de cliquer des pts, je passe par la création d'empty que l'on doit déplacer à la main (on peut mettre l'accrochage aux vertex pour se snapper sur les points du nuage c'est plus souple et plus visuel mais il faut penser à importer les "point as mesh" dans Photogrammetry-Importer)
 3 pts à placer au sol (le futur plan z=0 de blender) pour l'orientation et on valide (ils sont nommés et 00,X détermine l'axe des x)
 2 pts pour l'échelle, à la validation ça affiche la cote mesurée et demande la cote réelle pour calculer le facteur d'échelle
 
