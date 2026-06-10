@@ -28,3 +28,5 @@ Plutôt que de cliquer des pts, je passe par la création d'empty que l'on doit 
 il y a un bouton pour purger les empty quand on a fini, un pour tout basculer avec une rotation autour de X si le Z se retrouve pas dans le bon sens et un accrochage rapide aux vertex
 
 une fois le modèle implanté, on peu dessiner dans la 3d des formes qui collent exactement au pts de vue des caméras, les pts 3d servant de support pour l'esquisse
+Nota
+ne pas créer les repère quand on est en vue caméra dans la TL, elle s'acrochere à la clef, il faut les créer et les déplacer dans la vue 3d
