@@ -5,7 +5,7 @@
 1. Ouvrir Blender
 2. Edit > Preferences > Add-ons
 3. Cliquer sur Install...
-4. Sélectionner le fichier ZIP
+4. Sélectionner le fichier PY
 5. Cocher 'ColmapTLOE'
 6. Cliquer sur Save Preferences
 
