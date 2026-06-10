@@ -11,11 +11,10 @@
 
 ## Mise à jour
 
-Remplacez simplement le ZIP par une nouvelle version puis réinstallez-la.
+Remplacez simplement le PY par une nouvelle version puis réinstallez-la.
 
-## Modification demandée
+## Usage
 
-Usage
 juste après l'import d'un projet ColMap avec Blender-Addon-Photogrammetry-Importer sur une version 4.3 de Blender
 il y a toujours qqs opérations à faire:
 	1 lier les caméra à la time line  (ça permet de naviguer entre les cam avec les flèches du clavier) et régler la focale (opinel, je fait des relevés au grand angle)
