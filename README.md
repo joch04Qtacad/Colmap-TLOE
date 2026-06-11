@@ -22,13 +22,27 @@ il y a toujours qqs opérations à faire:
 3. Lui donner une échelle
 
 Plutôt que de cliquer des pts, je passe par la création d'empty que l'on doit déplacer à la main (on peut mettre l'accrochage aux vertex pour se snapper sur les points du nuage c'est plus souple et plus visuel mais il faut penser à importer les "point as mesh" dans Photogrammetry-Importer)
-3 pts à placer au sol (le futur plan z=0 de blender) pour l'orientation et on valide (ils sont nommés et 00,X détermine l'axe des x)
-2 pts pour l'échelle, à la validation ça affiche la cote mesurée et demande la cote réelle pour calculer le facteur d'échelle
+- 3 pts à placer au sol (le futur plan z=0 de blender) pour l'orientation et on valide (ils sont nommés et 00,X détermine l'axe des x)
+- 2 pts pour l'échelle, à la validation ça affiche la cote mesurée et demande la cote réelle pour calculer le facteur d'échelle
+- Il y a un bouton pour purger les empty quand on a fini, un pour tout basculer avec une rotation autour de X si le Z se retrouve pas dans le bon sens et un accrochage rapide aux vertex
 
-Il y a un bouton pour purger les empty quand on a fini, un pour tout basculer avec une rotation autour de X si le Z se retrouve pas dans le bon sens et un accrochage rapide aux vertex
-
-Une fois le modèle implanté, on peu dessiner dans la 3d des formes qui collent exactement au pts de vue des caméras, les pts 3d servant de support pour l'esquisse
+Une fois le modèle implanté, on peu dessiner dans la 3d des formes qui collent exactement au pts de vue des caméras, les pts 3d servant de support pour l'esquisse dans les vue 3d; la photo d'arrière plan aide à ajuster les formes quand on manque de pts
 
 Nota
-
 ne pas créer les repères quand on est en vue caméra dans la TL, elle s'acrochere à la clef, il faut les créer et les déplacer dans la vue 3d
+
+Import brut
+![Description](http://joch04.free.fr/qta-php/images/Colmap-TLOE/0-Import%20brut.png)
+
+Time line et focale appliquée
+![Description](http://joch04.free.fr/qta-php/images/Colmap-TLOE/1-TL_et_Focale_appliqué.png)
+
+Orientation
+![Description](http://joch04.free.fr/qta-php/images/Colmap-TLOE/2-Orientation.png)
+
+Orientation appliqué
+![Description](http://joch04.free.fr/qta-php/images/Colmap-TLOE/3-Orientation_appliquée.png)
+
+Appliquer l'échelle
+![Description](http://joch04.free.fr/qta-php/images/Colmap-TLOE/4-appliquer_échelle.png)
+
